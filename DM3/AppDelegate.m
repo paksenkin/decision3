@@ -12,6 +12,12 @@
 
 @implementation AppDelegate
 
+-(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+    return YES;
+}
+
+
+
 -(void)autoMakeStep
 {
     @try {
