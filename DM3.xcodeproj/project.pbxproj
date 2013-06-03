@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A235D466175BC130001E01AB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A235D465175BC130001E01AB /* Cocoa.framework */; };
+		A235D470175BC130001E01AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A235D46E175BC130001E01AB /* InfoPlist.strings */; };
+		A235D472175BC130001E01AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D471175BC130001E01AB /* main.m */; };
+		A235D476175BC130001E01AB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A235D474175BC130001E01AB /* Credits.rtf */; };
+		A235D479175BC130001E01AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D478175BC130001E01AB /* AppDelegate.m */; };
+		A235D47C175BC131001E01AB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A235D47A175BC131001E01AB /* MainMenu.xib */; };
+		A235D4B6175BCC68001E01AB /* GameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D4AB175BCC68001E01AB /* GameCell.m */; };
+		A235D4B7175BCC68001E01AB /* GameCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D4AD175BCC68001E01AB /* GameCharacter.m */; };
+		A235D4B8175BCC68001E01AB /* GameConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D4AF175BCC68001E01AB /* GameConstants.m */; };
+		A235D4B9175BCC68001E01AB /* GameEvemy.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D4B1175BCC68001E01AB /* GameEvemy.m */; };
+		A235D4BA175BCC68001E01AB /* GameMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D4B3175BCC68001E01AB /* GameMap.m */; };
+		A235D4BB175BCC68001E01AB /* GamePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D4B5175BCC68001E01AB /* GamePerson.m */; };
+		A235D4BE175BCC7E001E01AB /* UIMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D4BD175BCC7E001E01AB /* UIMapView.m */; };
+		A235D4C1175BD5D8001E01AB /* UIHealthView.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D4C0175BD5D8001E01AB /* UIHealthView.m */; };
+		A235D4C5175BD8EE001E01AB /* CharacterAI.m in Sources */ = {isa = PBXBuildFile; fileRef = A235D4C4175BD8EE001E01AB /* CharacterAI.m */; };
+		A259633E175C9AF600A82EF5 /* EnemyAI.m in Sources */ = {isa = PBXBuildFile; fileRef = A259633D175C9AF600A82EF5 /* EnemyAI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A235D462175BC130001E01AB /* DM3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DM3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A235D465175BC130001E01AB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A235D468175BC130001E01AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A235D469175BC130001E01AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A235D46A175BC130001E01AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A235D46D175BC130001E01AB /* DM3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DM3-Info.plist"; sourceTree = "<group>"; };
+		A235D46F175BC130001E01AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A235D471175BC130001E01AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A235D473175BC130001E01AB /* DM3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DM3-Prefix.pch"; sourceTree = "<group>"; };
+		A235D475175BC130001E01AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A235D477175BC130001E01AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A235D478175BC130001E01AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A235D47B175BC131001E01AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A235D4AA175BCC68001E01AB /* GameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCell.h; sourceTree = "<group>"; };
+		A235D4AB175BCC68001E01AB /* GameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCell.m; sourceTree = "<group>"; };
+		A235D4AC175BCC68001E01AB /* GameCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCharacter.h; sourceTree = "<group>"; };
+		A235D4AD175BCC68001E01AB /* GameCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCharacter.m; sourceTree = "<group>"; };
+		A235D4AE175BCC68001E01AB /* GameConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConstants.h; sourceTree = "<group>"; };
+		A235D4AF175BCC68001E01AB /* GameConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameConstants.m; sourceTree = "<group>"; };
+		A235D4B0175BCC68001E01AB /* GameEvemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEvemy.h; sourceTree = "<group>"; };
+		A235D4B1175BCC68001E01AB /* GameEvemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameEvemy.m; sourceTree = "<group>"; };
+		A235D4B2175BCC68001E01AB /* GameMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMap.h; sourceTree = "<group>"; };
+		A235D4B3175BCC68001E01AB /* GameMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMap.m; sourceTree = "<group>"; };
+		A235D4B4175BCC68001E01AB /* GamePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePerson.h; sourceTree = "<group>"; };
+		A235D4B5175BCC68001E01AB /* GamePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePerson.m; sourceTree = "<group>"; };
+		A235D4BC175BCC7E001E01AB /* UIMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMapView.h; sourceTree = "<group>"; };
+		A235D4BD175BCC7E001E01AB /* UIMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMapView.m; sourceTree = "<group>"; };
+		A235D4BF175BD5D8001E01AB /* UIHealthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHealthView.h; sourceTree = "<group>"; };
+		A235D4C0175BD5D8001E01AB /* UIHealthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHealthView.m; sourceTree = "<group>"; };
+		A235D4C3175BD8EE001E01AB /* CharacterAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterAI.h; sourceTree = "<group>"; };
+		A235D4C4175BD8EE001E01AB /* CharacterAI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterAI.m; sourceTree = "<group>"; };
+		A259633C175C9AF600A82EF5 /* EnemyAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyAI.h; sourceTree = "<group>"; };
+		A259633D175C9AF600A82EF5 /* EnemyAI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyAI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A235D45F175BC130001E01AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A235D466175BC130001E01AB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A235D459175BC130001E01AB = {
+			isa = PBXGroup;
+			children = (
+				A235D46B175BC130001E01AB /* DM3 */,
+				A235D464175BC130001E01AB /* Frameworks */,
+				A235D463175BC130001E01AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A235D463175BC130001E01AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A235D462175BC130001E01AB /* DM3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A235D464175BC130001E01AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A235D465175BC130001E01AB /* Cocoa.framework */,
+				A235D467175BC130001E01AB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A235D467175BC130001E01AB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A235D468175BC130001E01AB /* AppKit.framework */,
+				A235D469175BC130001E01AB /* CoreData.framework */,
+				A235D46A175BC130001E01AB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A235D46B175BC130001E01AB /* DM3 */ = {
+			isa = PBXGroup;
+			children = (
+				A235D4C2175BD8CD001E01AB /* AI */,
+				A235D4A9175BCC68001E01AB /* Data domain */,
+				A235D495175BCC1F001E01AB /* UI */,
+				A235D477175BC130001E01AB /* AppDelegate.h */,
+				A235D478175BC130001E01AB /* AppDelegate.m */,
+				A235D47A175BC131001E01AB /* MainMenu.xib */,
+				A235D46C175BC130001E01AB /* Supporting Files */,
+			);
+			path = DM3;
+			sourceTree = "<group>";
+		};
+		A235D46C175BC130001E01AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A235D46D175BC130001E01AB /* DM3-Info.plist */,
+				A235D46E175BC130001E01AB /* InfoPlist.strings */,
+				A235D471175BC130001E01AB /* main.m */,
+				A235D473175BC130001E01AB /* DM3-Prefix.pch */,
+				A235D474175BC130001E01AB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A235D495175BCC1F001E01AB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A235D4BC175BCC7E001E01AB /* UIMapView.h */,
+				A235D4BD175BCC7E001E01AB /* UIMapView.m */,
+				A235D4BF175BD5D8001E01AB /* UIHealthView.h */,
+				A235D4C0175BD5D8001E01AB /* UIHealthView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A235D4A9175BCC68001E01AB /* Data domain */ = {
+			isa = PBXGroup;
+			children = (
+				A235D4AA175BCC68001E01AB /* GameCell.h */,
+				A235D4AB175BCC68001E01AB /* GameCell.m */,
+				A235D4AC175BCC68001E01AB /* GameCharacter.h */,
+				A235D4AD175BCC68001E01AB /* GameCharacter.m */,
+				A235D4AE175BCC68001E01AB /* GameConstants.h */,
+				A235D4AF175BCC68001E01AB /* GameConstants.m */,
+				A235D4B0175BCC68001E01AB /* GameEvemy.h */,
+				A235D4B1175BCC68001E01AB /* GameEvemy.m */,
+				A235D4B2175BCC68001E01AB /* GameMap.h */,
+				A235D4B3175BCC68001E01AB /* GameMap.m */,
+				A235D4B4175BCC68001E01AB /* GamePerson.h */,
+				A235D4B5175BCC68001E01AB /* GamePerson.m */,
+			);
+			path = "Data domain";
+			sourceTree = "<group>";
+		};
+		A235D4C2175BD8CD001E01AB /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				A235D4C3175BD8EE001E01AB /* CharacterAI.h */,
+				A235D4C4175BD8EE001E01AB /* CharacterAI.m */,
+				A259633C175C9AF600A82EF5 /* EnemyAI.h */,
+				A259633D175C9AF600A82EF5 /* EnemyAI.m */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A235D461175BC130001E01AB /* DM3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A235D47F175BC131001E01AB /* Build configuration list for PBXNativeTarget "DM3" */;
+			buildPhases = (
+				A235D45E175BC130001E01AB /* Sources */,
+				A235D45F175BC130001E01AB /* Frameworks */,
+				A235D460175BC130001E01AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DM3;
+			productName = DM3;
+			productReference = A235D462175BC130001E01AB /* DM3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A235D45A175BC130001E01AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pavel Aksenkin";
+			};
+			buildConfigurationList = A235D45D175BC130001E01AB /* Build configuration list for PBXProject "DM3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A235D459175BC130001E01AB;
+			productRefGroup = A235D463175BC130001E01AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A235D461175BC130001E01AB /* DM3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A235D460175BC130001E01AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A235D470175BC130001E01AB /* InfoPlist.strings in Resources */,
+				A235D476175BC130001E01AB /* Credits.rtf in Resources */,
+				A235D47C175BC131001E01AB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A235D45E175BC130001E01AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A235D472175BC130001E01AB /* main.m in Sources */,
+				A235D479175BC130001E01AB /* AppDelegate.m in Sources */,
+				A235D4B6175BCC68001E01AB /* GameCell.m in Sources */,
+				A235D4B7175BCC68001E01AB /* GameCharacter.m in Sources */,
+				A235D4B8175BCC68001E01AB /* GameConstants.m in Sources */,
+				A235D4B9175BCC68001E01AB /* GameEvemy.m in Sources */,
+				A235D4BA175BCC68001E01AB /* GameMap.m in Sources */,
+				A235D4BB175BCC68001E01AB /* GamePerson.m in Sources */,
+				A235D4BE175BCC7E001E01AB /* UIMapView.m in Sources */,
+				A235D4C1175BD5D8001E01AB /* UIHealthView.m in Sources */,
+				A235D4C5175BD8EE001E01AB /* CharacterAI.m in Sources */,
+				A259633E175C9AF600A82EF5 /* EnemyAI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A235D46E175BC130001E01AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A235D46F175BC130001E01AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A235D474175BC130001E01AB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A235D475175BC130001E01AB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A235D47A175BC131001E01AB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A235D47B175BC131001E01AB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A235D47D175BC131001E01AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A235D47E175BC131001E01AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A235D480175BC131001E01AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DM3/DM3-Prefix.pch";
+				INFOPLIST_FILE = "DM3/DM3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A235D481175BC131001E01AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DM3/DM3-Prefix.pch";
+				INFOPLIST_FILE = "DM3/DM3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A235D45D175BC130001E01AB /* Build configuration list for PBXProject "DM3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A235D47D175BC131001E01AB /* Debug */,
+				A235D47E175BC131001E01AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A235D47F175BC131001E01AB /* Build configuration list for PBXNativeTarget "DM3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A235D480175BC131001E01AB /* Debug */,
+				A235D481175BC131001E01AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A235D45A175BC130001E01AB /* Project object */;
+}
